@@ -1,0 +1,45 @@
+*{
+    margin: 10px;
+}
+h1 {
+    color: #0000ff;
+    border: black 3px solid;
+    padding: 15px;
+    margin: 10px;
+}
+
+body{
+    border: black 3px solid;
+    margin: 0;
+}
+
+header{
+    border: red 2px solid;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+nav{
+    border: orange 3px solid;
+    padding: 10px;
+    background-image: url("../images/img1.jpeg");
+    color: yellow;
+    font-weight: bold;
+}
+
+nav a{
+    color: yellow;
+    font-weight: bold;
+}
+
+footer{
+    border: green 3px solid;
+    background-color: lightblue;
+}
+
+footer p{
+    font-family: Verdam, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+
+}
