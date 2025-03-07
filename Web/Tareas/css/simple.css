@@ -1,67 +1,80 @@
-header {
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
+* {
+    font-family: Tahoma, sans-serif;
 }
 
-body{
+body {
     margin: 0;
 }
 
-header nav{
-    margin: 18.72px;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Corrige la alineación */
+    padding: 20px;
+    background-color: #28444c;
+    color: white;
 }
 
-header nav a{
+header h3 {
+    margin: 0;
+}
+
+header nav a {
     color: white;
-    margin: 18.72px;
+    margin: 10px;
     padding: 5px;
 }
 
-#mainSection{
-    background-color: rgba(255, 140, 0, 0.772);
-    color: white;
-    padding: 20px;
+#mainSection {
+    background-color: #c07c2c;
+    padding: 40px 200px;
 }
 
 #mainSection h2{
+    color: white;
     text-align: center;
+
 }
 
 #mainSection p{
-    text-align: center;
+    color: white;
+    text-align: justify;
 }
 
 #subscribeSection{
     display: flex;
     justify-content: center;
-    background-color: rgb(55, 75, 103);
+    background-color: #28444c;
     color: white;
 }
 
+#subscribeSection p {
+    margin-right: 30px;
+}
+
 #subscribeSection form{
+    display: flex;
     margin: 16px;
 }
 
 #subscribeSection form button{
-    background-color: rgba(255, 140, 0, 0.772);
+    background-color: #c07c2c;
     color: white;
 }
 
-#imageSection{
+#imageSection {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
 }
 
-footer{
+#imageSection div {
     text-align: center;
-    background-color: rgb(55, 75, 103);
-    padding: 16px;
-    color: white;
 }
 
-header{
-    background-color: rgb(55, 75, 103);
+footer {
+    text-align: center;
+    background-color: #28444c;
+    padding: 16px;
     color: white;
 }
