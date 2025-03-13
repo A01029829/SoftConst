@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BREAKOUT</title>
+        <link rel="stylesheet" href="../css/styles.css">
+        <script src="../js/game_classes.js"></script>
+        <script src="../js/breakout.js"></script>
+    </head>
+
+    <body>
+        <div id="headerContainer">
+            <h1>BREAKOUT</h1>
+        </div>
+
+        <div>
+            <label for="rows">Filas: </label>
+            <input type="number" id="rows" value="5" min="1" max="15">
+            <label for="cols">Columnas: </label>
+            <input type="number" id="cols" value="8" min="1" max="8">
+            <button onclick="startGame()">Iniciar Juego</button>
+        </div>
+
+        <canvas id="canvas"></canvas>
+        <a href="/">
+            <button id="backButton">Back</button>
+        </a>
+        <script> main(); </script>
+
+        <div>
+            <h3>UNA VEZ SELECCIONADAS LAS FILAS Y COLUMNAS, PRESIONE 'S' PARA COMENZAR</h3>
+        </div>
+    </body>
+</html>
