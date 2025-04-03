@@ -1,0 +1,169 @@
+/* Estilos base para el contenedor principal */
+.container {
+    padding: 2rem;
+    margin: 1.5rem auto;
+    max-width: 900px;
+    border-bottom: 1px solid #e1e1e1;
+    background-color: #ffffff;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.container:hover {
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #d1d5db;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #3b82f6;
+    color: white;
+    font-weight: 600;
+}
+
+tr:nth-child(even) {
+    background-color: #f9fafb;
+}
+
+tr:hover {
+    background-color: #f0f4ff;
+}
+
+/* Estilos para los botones */
+input[type="button"], 
+input[type="submit"] {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0.5rem 0.5rem 0.5rem 0;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="button"]:hover, 
+input[type="submit"]:hover {
+    background-color: #2563eb;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+input[type="button"]:active, 
+input[type="submit"]:active {
+    transform: translateY(0);
+}
+
+/* Estilos para los inputs de texto */
+input[type="text"],
+input[type="number"] {
+    padding: 10px 15px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    margin: 0.5rem 0.5rem 0.5rem 0;
+    width: 200px;
+    transition: border 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+/* Estilos para la imagen interactiva */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+img:hover {
+    transform: scale(1.02);
+}
+
+/* Estilos para los títulos */
+h2 {
+    color: #1f2937;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #3b82f6;
+    padding-bottom: 0.5rem;
+    display: inline-block;
+}
+
+h4 {
+    color: #374151;
+    font-size: 1.2rem;
+    margin: 1.2rem 0 0.5rem 0;
+}
+
+/* Efectos de transición para interacciones */
+* {
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+        margin: 1rem;
+    }
+    
+    input[type="text"],
+    input[type="number"] {
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+}
+
+/* Título principal */
+.main-title {
+    font-size: 2.5rem;
+    color: #1e3a8a;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+/* Subtítulo de sección */
+.section-title {
+    font-size: 1.6rem;
+    color: #1f2937;
+    margin: 2rem 0 1rem 0;
+    text-align: center;
+    border-bottom: 2px solid #3b82f6;
+    display: inline-block;
+}
+
+/* Descripción de sección */
+.section-description {
+    font-size: 1.05rem;
+    color: #374151;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 2rem auto;
+    line-height: 1.6;
+}
